@@ -165,4 +165,39 @@ a {
   height: 100%;
 }
 
- 
+#section3{
+  background-color: #586c8a;
+  border:1px solid black
+}
+#body-section3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20rem;
+  background-color: #586c8a;
+  color: white;
+}
+
+#body-section3>div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  height: 50%;
+}
+#section3>h1 {
+  text-align: center;
+  color: white;
+  font-size: 5.5rem;
+  margin: 2.5rem 0 2.5rem 0;
+  padding: 0 0 0 4px;
+}
+#section3>p {
+  text-align: center;
+  color: white;
+  font-size: 3.2rem;
+  margin: 12px;
+  padding: 0 0 0 4px;
+}
